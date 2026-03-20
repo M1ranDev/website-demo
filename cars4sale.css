@@ -1,0 +1,48 @@
+.cars4sale{
+    padding-top: 120px;
+    background: rgb(250, 250, 250);
+    min-height: 100vh;
+}
+
+.cars4sale h1{
+    text-align: center;
+    margin-bottom: 80px;
+
+}
+
+.cars-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: start;
+}
+
+.car{
+    text-align: center;
+}
+
+.car img{
+    width: 350px;
+    display: block;
+    margin: 0 auto 15px auto;
+}
+
+.car h3{
+    margin-top: 5px;
+    font-size: 22px;
+}
+
+.car p{
+    font-size: 18px;
+}
+
+.car:hover{
+    transform: scale(1.03);
+    transition: 0.3s;
+}
+
+
+ 
+

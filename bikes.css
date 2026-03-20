@@ -1,0 +1,45 @@
+.bikes{
+    padding-top: 120px;
+    background: rgb(255, 255, 255);
+    min-height: 100vh;
+}
+
+.bikes h1{
+    text-align: center;
+    margin-bottom: 80px;
+
+}
+
+.bikes-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: start;
+}
+
+.bike{
+    text-align: center;
+}
+
+.bike img{
+    width: 400px;
+    display: block;
+    margin: 0 auto 15px auto;
+}
+
+.bike h3{
+    margin-top: 5px;
+    font-size: 22px;
+}
+
+.bike p{
+    font-size: 18px;
+}
+
+.bike:hover{
+    transform: scale(1.03);
+    transition: 0.3s;
+}
+

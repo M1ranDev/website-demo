@@ -1,0 +1,30 @@
+.footer{
+    background: #0a0a0a;
+    padding:50px 50px;
+    color:white;
+    z-index: 5;
+}
+
+.footer-content{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+.socials{
+    display: flex;
+    gap: 50px;
+}
+
+.footer p{
+    font-size:14px;
+}
+.socials a{
+    margin-left: 20px;
+    text-decoration: none;
+    color:white;
+    font-size:14px;
+    transition:0.3s;
+}
+.socials a:hoover{
+    opacity:0.6;
+}

@@ -1,0 +1,45 @@
+.boats{
+    padding-top: 120px;
+    background: rgb(250, 250, 250);
+    min-height: 100vh;
+}
+
+.boats h1{
+    text-align: center;
+    margin-bottom: 80px;
+
+}
+
+.boats-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: start;
+}
+
+.boat{
+    text-align: center;
+}
+
+.boat img{
+    width: 400px;
+    display: block;
+    margin: 0 auto 15px auto;
+}
+
+.boat h3{
+    margin-top: 5px;
+    font-size: 22px;
+}
+
+.boat p{
+    font-size: 18px;
+}
+
+.boat:hover{
+    transform: scale(1.03);
+    transition: 0.3s;
+}
+
